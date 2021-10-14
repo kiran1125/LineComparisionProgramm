@@ -13,5 +13,12 @@ public class LineComparision {
         System.out.println("length of the line 2 : " +LENGTH_OF_LINE2);
         boolean EQUAL = (LENGTH_OF_LINE1 == LENGTH_OF_LINE2);
         System.out.println("Is It Equal : "+EQUAL);
+
+        int Line = Double.compare(LENGTH_OF_LINE1,LENGTH_OF_LINE2);
+        if (Line == 1){
+            System.out.println("line1 is greater than line 2");
+        }
+        else
+            System.out.println("line1 is lesser than line 2");
     }
 }
